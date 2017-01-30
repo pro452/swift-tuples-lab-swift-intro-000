@@ -15,7 +15,7 @@
  ### 1. Create a tuple to represent a person! The tuple should have a person's name in the first field and their age in the second field. Define the tuple as a variable named `person`.
  */
 // write your code here
-
+var person = (name: "Mike", age: 20)
 
 
 
@@ -29,7 +29,7 @@
 // write your code here
 
 
-
+print("\(person.name) is \(person.age) years old")
 
 
 
@@ -40,6 +40,7 @@
  */
 // write your code here
 
+person.age = person.age + 1
 
 
 
@@ -54,7 +55,7 @@
 
 
 
-
+print("Happy \(person.age) birthday, \(person.name)!")
 
 
 
@@ -63,7 +64,7 @@
  ### 5. Create another person variable called `someone` using _named_ fields for the name and age.
  */
 // write your code here
-
+var someone = (name: "someone", age: 3)
 
 
 
